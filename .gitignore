@@ -1,0 +1,53 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Target folder (Isme built JAR files hoti hain, ise push nahi karna kyunki GitHub Actions ise fir se banayega)
+/target/
+target/
+
+# IDE specific files (Eclipse / STS / VS Code ki temporary settings)
+.settings/
+.classpath
+.project
+.factorypath
+
+# Maven temporary files
+.mvn/wrapper/maven-wrapper.jar
+
+# Log files (Agar project run hote waqt koi log file banti hai)
+*.log
+
+# OS related temporary files
+.DS_Store
+Thumbs.db
